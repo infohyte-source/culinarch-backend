@@ -1,0 +1,29 @@
+{
+  "name": "culinarch-backend",
+  "version": "1.0.0",
+  "description": "Backend for Culinarch application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "culinarch",
+    "backend",
+    "express",
+    "nodejs"
+  ],
+  "author": "Bharathi P",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
