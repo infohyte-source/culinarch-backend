@@ -17,6 +17,7 @@ router.post('/call-back', async (req, res) => {
             });
         }
 
+
         // Send SMS to target number
         const smsMessage = smsService.formatCallBackMessage({ name, contactNumber, message });
         const smsResult = await smsService.sendSMS(process.env.TARGET_PHONE_NUMBER, smsMessage);
